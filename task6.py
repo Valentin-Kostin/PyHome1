@@ -12,8 +12,7 @@ num = input('Введите шестизначный номер билета: ')
 sum1 = 0
 sum2 = 0
 j = 0
-while j < len(num)/2:
-    #print(j)
+while j < len(num)/2:    
     sum1 += int(num[j])
     j = j + 1    
     sum2 += int(num[-j])
